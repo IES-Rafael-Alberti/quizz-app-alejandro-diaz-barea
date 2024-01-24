@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: quiz-app
+    ports:
+      - "8080:80"
+    volumes:
+      - /home/alejandro/Descargas/quizz-app-alejandro-diaz-barea/Parte_1:/var/www/html
